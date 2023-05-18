@@ -1,0 +1,28 @@
+
+        .main-sidebar{
+            position: relative;
+            float: left;
+            left: 0%;
+        }
+        aside > div > img {
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        aside{
+            border: 1px solid grey;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 0 1px 0;
+        }
+        @media (width > 800px) { 
+            main{
+                position: relative;
+            }
+            aside{
+                margin-left: 10px;
+                position: relative;
+                float: right;
+                right: 0%;
+                width: 25%;
+            }
+        }
