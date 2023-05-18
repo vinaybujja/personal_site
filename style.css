@@ -1,8 +1,13 @@
 
         .main-sidebar{
-            position: relative;
+            position: sticky;
+            top: 0%;
             float: left;
             left: 0%;
+            height: 100vh;
+            overflow: hidden;
+            overflow-y: scroll;
+            width: 100%;
         }
         aside > div > img {
             border-radius: 5px;
@@ -26,3 +31,4 @@
                 width: 25%;
             }
         }
+   
